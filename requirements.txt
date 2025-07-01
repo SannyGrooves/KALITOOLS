@@ -1,0 +1,6 @@
+psutil>=5.9.0 
+sublist3r>=1.0
+dnsrecon>=0.10.0
+fierce>=1.5.0 
+mitmproxy>=10.0.0 
+dnsenum>=1.2.4
