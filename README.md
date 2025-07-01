@@ -28,6 +28,7 @@ HOW TO USE
     TYPE: cd / <copied path>
     Run the Installation Script: 
 	chmod +x install.sh
+	./install.sh
     Enter the project directory for Kali Tools
     program will make virtual python evn and start the program
     Run: 
