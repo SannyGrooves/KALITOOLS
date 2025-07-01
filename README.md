@@ -1,2 +1,28 @@
 # KALITOOLS
 KALI TOOLS FOR MAC
+
+<img width="426" alt="Scherm­afbeelding 2025-07-01 om 11 52 25" src="https://github.com/user-attachments/assets/626192cd-dea1-44c3-b060-3e2c535dfe2e" />
+
+
+HOW TO USE
+
+1. COPY PATH OF FOLDER
+2. START TERMINAL
+3. TYPE: CD /<PATH OF FOLDER>
+4. Run the Installation Script:
+   chmod +x install.sh
+   ./install.sh
+
+This installs tools, sets up the virtual environment ($HOME/kali_tools_venv), and creates the kali_tools command.
+
+RUN THE MENU:
+sudo kali_tools
+
+
+SPECIAL CUSTOM TOOL:
+Generate the Detailed Report (combining the most powerfull tools of kli together):
+Select option 17 ("Generate Detailed Report - WHOIS, Geolocation, Subdomains").
+Enter a domain (e.g., example.com).
+Specify a filepath (e.g., $HOME/kali_tools/export_info.html) or press Enter for a default    path ($HOME/kali_tools/export_info_YYYYMMDD_HHMMSS.html).
+Make sure you add .html at end of file name while exporting
+The report will be saved with fancy.css styling, and fancy.css will be saved to $HOME/kali_tools 
