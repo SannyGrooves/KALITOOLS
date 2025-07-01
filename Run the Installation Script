@@ -1,18 +1,19 @@
-Run the Installation Script:
-bash
-chmod +x install.sh
-./install.sh
-This installs tools, sets up the virtual environment ($HOME/kali_tools_venv), and creates the kali_tools command.
-Run the Menu:
-bash
-kali_tools
-or
-bash
-sudo kali_tools
-for tools requiring elevated privileges.
-Generate the Detailed Report:
+INSTALL DIR = USER/DOCUMENTS/KALI_TOOLS
 
-    Select option 17 ("Generate Detailed Report - WHOIS, Geolocation, Subdomains").
-    Enter a domain (e.g., example.com).
-    Specify a filepath (e.g., $HOME/kali_tools/export_info.html) or press Enter for a default path ($HOME/kali_tools/export_info_YYYYMMDD_HHMMSS.html).
-    The report will be saved with fancy.css styling, and fancy.css will be saved to $HOME/kali_tools/css/fancy.css.
+Requirements: Homebrew,paste this command in terminal: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" brew install python3 /usr/local/bin/pip3 install --upgrade pip /usr/local/bin/pip3 install virtualenv sudo /usr/local/bin/pip3 install virtualenv
+
+Step 4: Test Virtual Environment Creation If virtualenv installs successfully, test creating a virtual environment: /usr/local/bin/virtualenv test_venv source test_venv/bin/activate python --version deactivate rm -rf test_venv
+
+HOW TO USE
+
+    COPY PATH OF FOLDER
+    START TERMINAL
+    TYPE: CD /
+    Run the Installation Script: chmod +x install.sh ./install.sh
+    Enter the project directory for Kali Tools
+    program will make virtual python evn and start the program
+    Run: sudo kali_tools
+
+This installs tools, sets up the virtual environment ($HOME/kali_tools_venv), and creates the kali_tools command.
+
+RUN THE MENU: sudo kali_tools
