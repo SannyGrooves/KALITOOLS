@@ -23,15 +23,15 @@ rm -rf test_venv
 
 HOW TO USE
 
-    COPY PATH OF FOLDER
-    START TERMINAL
-    TYPE: cd / <copied path>
-    Run the Installation Script: 
+1. COPY PATH OF FOLDER
+2. START TERMINAL
+3. TYPE:
+	cd /<copied path>
+4. Run the Installation Script: 
 	chmod +x install.sh
 	./install.sh
-    Enter the project directory for Kali Tools
-    program will make virtual python evn and start the program
-    Run: 
+5. program will make virtual python evn and start the program
+   Run: 
 	sudo kali_tools
 
 This installs tools, sets up the virtual environment ($HOME/kali_tools_venv), and creates the kali_tools command.
