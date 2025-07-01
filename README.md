@@ -1,4 +1,4 @@
-# KALITOOLS
+# KALI TOOLS
 KALI TOOLS FOR MAC
 
 <img width="426" alt="Scherm­afbeelding 2025-07-01 om 11 52 25" src="https://github.com/user-attachments/assets/626192cd-dea1-44c3-b060-3e2c535dfe2e" />
