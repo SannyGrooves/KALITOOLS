@@ -13,41 +13,49 @@ brew install python3
 /usr/local/bin/pip3 install virtualenv
 sudo /usr/local/bin/pip3 install virtualenv
 
-Step 4: Test Virtual Environment Creation
+
+HOW TO USE
+COPY PATH OF FOLDER kalitools-main
+START TERMINAL
+TYPE
+
+	cd /<insert copied path here>
+
+4. Run the Installation Script. 
+This installs tools, sets up the virtual environment ($HOME/kalitools-main_venv), and creates the kalitools command:
+
+		chmod +x install.sh ./install.sh
+
+
+6. program will make virtual python evn and start the program
+
+Run:
+
+	sudo kali_tools
+
+
+RUN THE MENU:
+
+	sudo kali_tools
+
+
+SPECIAL CUSTOM TOOL:
+
+	Generate the Detailed Report (combining the most powerfull tools of kli together):
+	Select option 17 ("Generate Detailed Report - WHOIS, Geolocation, Subdomains").
+	Enter a domain (e.g., example.com).
+	Specify a filepath (e.g., $HOME/kali_tools/export_info.html) or press Enter for a default    path ($HOME/kali_tools/export_info_YYYYMMDD_HHMMSS.html).
+	Make sure you add .html at end of file name while exporting
+The report will be saved with fancy.css styling, and fancy.css will be saved to your kalitools-main folder
+
+problem solvers:
+Test Virtual Environment Creation
 If virtualenv installs successfully, test creating a virtual environment:
 /usr/local/bin/virtualenv test_venv
 source test_venv/bin/activate
 python --version
 deactivate
 rm -rf test_venv
-
-HOW TO USE
-
-1. COPY PATH OF FOLDER
-2. START TERMINAL
-3. TYPE:
-	cd /<copied path>
-4. Run the Installation Script: 
-	chmod +x install.sh
-	./install.sh
-5. program will make virtual python evn and start the program
-Run:
-
-	sudo kali_tools
-
-This installs tools, sets up the virtual environment ($HOME/kali_tools_venv), and creates the kali_tools command.
-
-RUN THE MENU:
-sudo kali_tools
-
-
-SPECIAL CUSTOM TOOL:
-Generate the Detailed Report (combining the most powerfull tools of kli together):
-Select option 17 ("Generate Detailed Report - WHOIS, Geolocation, Subdomains").
-Enter a domain (e.g., example.com).
-Specify a filepath (e.g., $HOME/kali_tools/export_info.html) or press Enter for a default    path ($HOME/kali_tools/export_info_YYYYMMDD_HHMMSS.html).
-Make sure you add .html at end of file name while exporting
-The report will be saved with fancy.css styling, and fancy.css will be saved to $HOME/kali_tools 
 
 ========================================
 Constraints:
