@@ -31,7 +31,8 @@ HOW TO USE
 	chmod +x install.sh
 	./install.sh
 5. program will make virtual python evn and start the program
-   Run: 
+Run:
+
 	sudo kali_tools
 
 This installs tools, sets up the virtual environment ($HOME/kali_tools_venv), and creates the kali_tools command.
