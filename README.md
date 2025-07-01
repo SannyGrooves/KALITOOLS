@@ -29,11 +29,6 @@ This installs tools, sets up the virtual environment ($HOME/kalitools-main_venv)
 
 6. program will make virtual python evn and start the program
 
-Run:
-
-	sudo kali_tools
-
-
 RUN THE MENU:
 
 	sudo kali_tools
