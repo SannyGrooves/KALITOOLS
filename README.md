@@ -25,7 +25,7 @@ HOW TO USE
 
 1. COPY PATH OF FOLDER
 2. START TERMINAL
-3. TYPE: CD /<PATH OF FOLDER>
+3. TYPE: CD / copied path
 4. Run the Installation Script:
    chmod +x install.sh
    ./install.sh
